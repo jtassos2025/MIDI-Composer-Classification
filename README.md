@@ -1,5 +1,3 @@
-# Composer Classification Feature Dataset
-
 ## Overview
 
 This dataset contains numerical features extracted from MIDI files from nine classical composers:
@@ -18,10 +16,9 @@ Each row represents one MIDI file. The `composer` column is the target label use
 
 Generated files:
 
-data/
-- train_features.csv
-- dev_features.csv
-- test_features.csv
+- data/train_features.csv
+- data/dev_features.csv
+- data/test_features.csv
 
 
 ## Feature Descriptions
@@ -38,35 +35,35 @@ filename
 
 ## General Musical Features
 
-tempo  
+**tempo**  
 - Estimated tempo of the MIDI file in beats per minute (BPM).
 - Represents the speed of the musical performance.
 
-num_notes  
+**num_notes**  
 - Total number of notes in the MIDI file.
 - Represents the overall amount of musical activity.
 
-num_chords  
+**num_chords**  
 - Number of detected chords using `music21` chordification.
 - Represents harmonic activity.
 
-avg_pitch  
+**avg_pitch**  
 - Average MIDI pitch value of all notes.
 - Represents the overall register of the composition.
 
-pitch_range  
+**pitch_range**  
 - Difference between the highest and lowest note.
 - Represents the total pitch span of the composition.
 
-avg_duration  
+**avg_duration**  
 - Average note duration in seconds.
 - Represents rhythmic characteristics and note length tendencies.
 
-avg_velocity  
+**avg_velocity**  
 - Average MIDI velocity value.
 - Represents average note intensity/dynamics.
 
-note_density  
+**note_density**  
 - Number of notes divided by total MIDI duration.
 - Represents how musically dense or active a piece is.
 
@@ -75,21 +72,18 @@ note_density
 
 The MIDI pitch classes represent the 12 chromatic notes:
 
-0 = C  
-1 = C#/Db  
-2 = D  
-3 = D#/Eb  
-4 = E  
-5 = F  
-6 = F#/Gb  
-7 = G  
-8 = G#/Ab  
-9 = A  
-10 = A#/Bb  
-11 = B  
-
-
-pitch_class_0 through pitch_class_11
+pitch_class_0 = C  
+pitch_class_1 = C#/Db  
+pitch_class_2 = D  
+pitch_class_3 = D#/Eb  
+pitch_class_4 = E  
+pitch_class_5 = F  
+pitch_class_6 = F#/Gb  
+pitch_class_7 = G  
+pitch_class_8 = G#/Ab  
+pitch_class_9 = A  
+pitch_class_10 = A#/Bb  
+pitch_class_11 = B  
 
 - Normalized histogram of pitch usage.
 - Each value represents the proportion of notes belonging to that pitch class.
@@ -98,7 +92,7 @@ pitch_class_0 through pitch_class_11
 
 ## Derived Features
 
-range_normalized
+**range_normalized**
 
 - Formula:
   pitch_range / avg_pitch
@@ -106,7 +100,7 @@ range_normalized
 - Normalizes pitch range relative to the average register.
 
 
-notes_per_chord
+**notes_per_chord**
 
 - Formula:
   num_notes / num_chords
@@ -114,7 +108,7 @@ notes_per_chord
 - Represents the amount of note activity occurring per harmonic event.
 
 
-chord_density
+**chord_density**
 
 - Formula:
   num_chords / num_notes
@@ -122,7 +116,7 @@ chord_density
 - Represents the frequency of harmonic changes relative to note activity.
 
 
-velocity_variation
+**velocity_variation**
 
 - Formula:
   avg_velocity / tempo
@@ -130,7 +124,7 @@ velocity_variation
 - Represents the relationship between dynamics and tempo.
 
 
-tempo_note_ratio
+**tempo_note_ratio**
 
 - Formula:
   tempo / num_notes
@@ -138,44 +132,32 @@ tempo_note_ratio
 - Represents the relationship between performance speed and note activity.
 
 
-chromatic_ratio
+**chromatic_ratio**
 
 - Percentage of notes belonging to chromatic pitch classes.
 - Measures the amount of chromatic pitch usage and harmonic complexity.
 
 
-pitch_entropy
+**pitch_entropy**
 
 - Measures how evenly distributed the pitch classes are.
 - Higher values indicate more varied pitch usage.
 - Lower values indicate stronger concentration around certain pitches.
 
 
-pitch_class_variance
+**pitch_class_variance**
 
 - Measures the variance of pitch class usage.
 - Higher values indicate stronger differences between frequently and rarely used pitch classes.
 
 
-## Dataset Pipeline
+## Pipeline
 
 MIDI Files
 
 ↓
 
-Feature extraction using `pretty_midi`
-
-↓
-
-Chord analysis using `music21`
-
-↓
-
-Feature calculation
-
-↓
-
-CSV feature datasets
+Feature extraction using `pretty_midi`, Chord analysis using `music21`, Feature calculation, & CSV feature datasets
 
 ↓
 
