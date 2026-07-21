@@ -25,8 +25,8 @@ Thumbs.db
 
 # Data files
 Composer_Dataset/
-data/
-*.csv
+data/midiclassics
+data/kunstderfuge.com
 *.json
 
 # MIDI files (if you don't want raw MIDI tracked)

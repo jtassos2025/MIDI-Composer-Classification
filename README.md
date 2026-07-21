@@ -1,164 +1,121 @@
+# Composer Classification Feature Dataset
+
 ## Overview
 
-This dataset contains numerical features extracted from MIDI files from nine classical composers:
+This project classifies MIDI files from four classical composers: Bach, Beethoven, Chopin, and Mozart. Each row in the feature datasets represents one MIDI file.
 
-- Bach
-- Bartók
-- Byrd
-- Chopin
-- Handel
-- Hummel
-- Mendelssohn
-- Mozart
-- Schumann
+Generated feature splits:
 
-Each row represents one MIDI file. The `composer` column is the target label used for classification.
+- `data/features/train_features.csv`
+- `data/features/dev_features.csv`
+- `data/features/test_features.csv`
 
-Generated files:
+The current datasets contain 63 columns: three identifier columns and 60 numeric descriptors suitable for model input.
 
-- data/train_features.csv
-- data/dev_features.csv
-- data/test_features.csv
+## Repository Layout
 
+```text
+.
+|-- data/
+|   |-- midiclassics/       # Source MIDI files, organized by composer
+|   `-- features/           # train, dev, and test feature CSVs
+|       |-- dev_features
+|       `-- test_features
+|       `-- train_features
+|-- notebooks/
+|   |-- MIDI_Extract.ipynb  # Feature extraction and idempotent enrichment
+|   `-- MIDI_EDA.ipynb      # Exploratory data analysis
+|-- requirements.txt
+`-- README.md
+```
 
-## Feature Descriptions
+Run the notebooks from the `notebooks/` directory. Their paths intentionally use `../data/...` so they resolve to the dataset folders at the repository root:
 
-### Metadata Features
+```powershell
+Set-Location notebooks
+jupyter notebook
+```
 
-composer  
-- Composer label (classification target).
+Install the project dependencies first:
 
-filename  
-- Original MIDI filename.  
-- Used for reference only and should not be included as a model input feature.
-
-
-## General Musical Features
-
-**tempo**  
-- Estimated tempo of the MIDI file in beats per minute (BPM).
-- Represents the speed of the musical performance.
-
-**num_notes**  
-- Total number of notes in the MIDI file.
-- Represents the overall amount of musical activity.
-
-**num_chords**  
-- Number of detected chords using `music21` chordification.
-- Represents harmonic activity.
-
-**avg_pitch**  
-- Average MIDI pitch value of all notes.
-- Represents the overall register of the composition.
-
-**pitch_range**  
-- Difference between the highest and lowest note.
-- Represents the total pitch span of the composition.
-
-**avg_duration**  
-- Average note duration in seconds.
-- Represents rhythmic characteristics and note length tendencies.
-
-**avg_velocity**  
-- Average MIDI velocity value.
-- Represents average note intensity/dynamics.
-
-**note_density**  
-- Number of notes divided by total MIDI duration.
-- Represents how musically dense or active a piece is.
+```powershell
+pip install -r requirements.txt
+```
 
 
-## Pitch Distribution Features
+## Dataset Splits and Balancing
 
-The MIDI pitch classes represent the 12 chromatic notes:
+The training split is imbalanced:
 
-pitch_class_0 = C  
-pitch_class_1 = C#/Db  
-pitch_class_2 = D  
-pitch_class_3 = D#/Eb  
-pitch_class_4 = E  
-pitch_class_5 = F  
-pitch_class_6 = F#/Gb  
-pitch_class_7 = G  
-pitch_class_8 = G#/Ab  
-pitch_class_9 = A  
-pitch_class_10 = A#/Bb  
-pitch_class_11 = B  
+| Composer | MIDI files |
+| --- | ---: |
+| Bach | 716 |
+| Mozart | 179 |
+| Beethoven | 148 |
+| Chopin | 95 |
 
-- Normalized histogram of pitch usage.
-- Each value represents the proportion of notes belonging to that pitch class.
-- Captures tonal and harmonic tendencies of each composition.
+For training, retain every original MIDI file, use class-weighted loss and balanced sampling, and evaluate with macro F1, balanced accuracy, and per-composer metrics. Do not randomly delete Bach files; add legitimate, varied MIDI files for Chopin first, then Beethoven and Mozart.
 
 
-## Derived Features
+## Identifier Columns
 
-**range_normalized**
-
-- Formula:
-  pitch_range / avg_pitch
-
-- Normalizes pitch range relative to the average register.
+- `composer`: classification target. Do not include it as a model input.
+- `filename`: original MIDI filename. Use for traceability only, not model input.
+- `relative_path`: source path within `data/midiclassics`. Use for traceability and duplicate checks only, not model input.
 
 
-**notes_per_chord**
+## Existing Musical Features
 
-- Formula:
-  num_notes / num_chords
+### Global note and timing descriptors
 
-- Represents the amount of note activity occurring per harmonic event.
+- `tempo`, `num_notes`, `num_chords`, `avg_pitch`, `pitch_range`
+- `avg_duration`, `avg_velocity`, `note_density`
+- `total_duration`, `num_midi_tracks`, `num_note_tracks`
+- `num_unique_programs`, `drum_track_count`, `has_drums`
 
+`num_midi_tracks` includes every raw MIDI track, including metadata tracks. `num_note_tracks` counts only instrument tracks containing notes.
 
-**chord_density**
+### Pitch and dynamics descriptors
 
-- Formula:
-  num_chords / num_notes
+- `pitch_class_0` through `pitch_class_11`: normalized pitch-class histogram.
+- `pitch_entropy`, `pitch_class_variance`, `range_normalized`
+- `pitch_std`, `pitch_median`
+- `velocity_std`, `velocity_range`
+- `duration_std`, `duration_median`
 
-- Represents the frequency of harmonic changes relative to note activity.
+### Rhythm and texture descriptors
 
+- `notes_per_chord`, `chord_density`
+- `velocity_variation`, `tempo_note_ratio`, `chromatic_ratio`
+- `onset_interval_mean`, `onset_interval_std`
+- `max_polyphony`, `avg_polyphony`
 
-**velocity_variation**
+`velocity_variation` and `tempo_note_ratio` are legacy ratio features. `velocity_std`, onset intervals, and polyphony are usually more interpretable rhythm and texture measures. `chromatic_ratio` is the proportion of black-key pitch classes, not a key-aware measure of chromaticism.
 
-- Formula:
-  avg_velocity / tempo
+### Instrumentation descriptors
 
-- Represents the relationship between dynamics and tempo.
+The following General MIDI program-family columns count note tracks assigned to each family:
 
+- `gm_piano_track_count`, `gm_chromatic_percussion_track_count`, `gm_organ_track_count`, `gm_guitar_track_count`
+- `gm_bass_track_count`, `gm_strings_track_count`, `gm_ensemble_track_count`, `gm_brass_track_count`
+- `gm_reed_track_count`, `gm_pipe_track_count`, `gm_synth_lead_track_count`, `gm_synth_pad_track_count`
+- `gm_synth_effects_track_count`, `gm_ethnic_track_count`, `gm_percussive_track_count`, `gm_sound_effects_track_count`
 
-**tempo_note_ratio**
-
-- Formula:
-  tempo / num_notes
-
-- Represents the relationship between performance speed and note activity.
-
-
-**chromatic_ratio**
-
-- Percentage of notes belonging to chromatic pitch classes.
-- Measures the amount of chromatic pitch usage and harmonic complexity.
-
-
-**pitch_entropy**
-
-- Measures how evenly distributed the pitch classes are.
-- Higher values indicate more varied pitch usage.
-- Lower values indicate stronger concentration around certain pitches.
+These metadata can be useful but depend on the quality of the MIDI arrangement and program assignments.
 
 
-**pitch_class_variance**
+## Extraction Workflow
 
-- Measures the variance of pitch class usage.
-- Higher values indicate stronger differences between frequently and rarely used pitch classes.
+[`notebooks/MIDI_Extract.ipynb`](notebooks/MIDI_Extract.ipynb) has two stages:
+
+1. Create the base feature CSVs only when one or more of the three split files is absent. This slow stage performs MIDI parsing and `music21` chord analysis.
+2. Enrich the existing CSVs in a single idempotent cell. For each feature column, it skips work when that column already exists and is populated for every row. When new features are added later, only missing or incomplete columns are written; the existing train/dev/test assignments are preserved.
+
+Some MIDI files have malformed tempo, key, or time-signature events. Feature extraction continues, but those metadata values may be imperfect for those files.
 
 
-## Pipeline
+## Exploratory Data Analysis
 
-MIDI Files
+[`notebooks/MIDI_EDA.ipynb`](notebooks/MIDI_EDA.ipynb) provides a clean, split-aware review of the 63-column dataset. It includes data-quality checks, class-balance plots, pitch/rhythm/texture comparisons, MIDI instrumentation summaries, composer feature profiles, correlation checks, and train-only univariate feature-ranking scores.
 
-↓
-
-Feature extraction using `pretty_midi`, Chord analysis using `music21`, Feature calculation, & CSV feature datasets
-
-↓
-
-Machine learning composer classification
+For modeling, exclude `composer`, `filename`, `relative_path`, and the EDA-only `split` column from inputs. Treat file-level velocity and MIDI program features carefully: they may reflect source encoding or arrangement conventions as well as composer style.
