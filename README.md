@@ -2,120 +2,91 @@
 
 ## Overview
 
-This project classifies MIDI files from four classical composers: Bach, Beethoven, Chopin, and Mozart. Each row in the feature datasets represents one MIDI file.
+This project classifies MIDI files by composer: Bach, Beethoven, Chopin, and Mozart. Each feature row represents one MIDI file and contains three identifiers plus 60 numeric musical descriptors.
 
-Generated feature splits:
+The project keeps the original `midiclassics` dataset intact, adds newly found MIDI sources separately, filters feature-level duplicates, and produces train/dev/test CSVs for modeling.
 
-- `data/features/train_features.csv`
-- `data/features/dev_features.csv`
-- `data/features/test_features.csv`
-
-The current datasets contain 63 columns: three identifier columns and 60 numeric descriptors suitable for model input.
-
-## Repository Layout
+## Data layout
 
 ```text
-.
-|-- data/
-|   |-- midiclassics/       # Source MIDI files, organized by composer
-|   `-- features/           # train, dev, and test feature CSVs
-|       |-- dev_features
-|       `-- test_features
-|       `-- train_features
-|-- notebooks/
-|   |-- MIDI_Extract.ipynb  # Feature extraction and idempotent enrichment
-|   `-- MIDI_EDA.ipynb      # Exploratory data analysis
-|-- requirements.txt
-`-- README.md
+data/
+|-- midiclassics/                  # Preferred original MIDI library by composer
+|-- new_midi_files/                # Add each new MIDI source as a direct subfolder here
+|-- features/
+|   |-- original features/         # Original train/dev/test feature CSVs
+|   |-- new_train_features.csv     # Incremental features for accepted new MIDI files
+|   |-- new_dev_features.csv
+|   |-- new_test_features.csv
+|   |-- combined_train_features.csv
+|   |-- combined_dev_features.csv
+|   `-- combined_test_features.csv
+`-- split_plans/
+    `-- candidate_split_plan.csv   # Duplicate decisions and deterministic split assignments
 ```
 
-Run the notebooks from the `notebooks/` directory. Their paths intentionally use `../data/...` so they resolve to the dataset folders at the repository root:
+Run notebooks from the `notebooks/` directory so their `../data/...` paths resolve correctly:
 
 ```powershell
 Set-Location notebooks
 jupyter notebook
 ```
 
-Install the project dependencies first:
+Install dependencies first:
 
 ```powershell
 pip install -r requirements.txt
 ```
 
+## Adding new MIDI data
 
-## Dataset Splits and Balancing
+1. Create or download a source folder under `data/new_midi_files/`.
+2. Ensure MIDI filenames or enclosing folders identify Beethoven, Chopin, or Mozart.
+3. Run [`MIDI_Ingest.ipynb`](notebooks/MIDI_Ingest.ipynb).
+4. Run [`Generate_New_MIDI_Features.ipynb`](notebooks/Generate_New_MIDI_Features.ipynb).
+5. Run [`Merge_Feature_CSVs.ipynb`](notebooks/Merge_Feature_CSVs.ipynb).
 
-The training split is imbalanced:
+`MIDI_Ingest.ipynb` automatically discovers every direct source folder under `data/new_midi_files`. It compares duration, estimated tempo, note count, and notes per second within each composer. `midiclassics` remains the preferred copy when a duplicate is found.
 
-| Composer | MIDI files |
-| --- | ---: |
-| Bach | 716 |
-| Mozart | 179 |
-| Beethoven | 148 |
-| Chopin | 95 |
+The split plan assigns one of four statuses:
 
-For training, retain every original MIDI file, use class-weighted loss and balanced sampling, and evaluate with macro F1, balanced accuracy, and per-composer metrics. Do not randomly delete Bach files; add legitimate, varied MIDI files for Chopin first, then Beethoven and Mozart.
+- `duplicate_of_midiclassics`: exclude; retain the preferred library copy.
+- `duplicate_of_candidate`: exclude; another new-source file represents the group.
+- `keep_candidate_representative`: retain one representative of a new duplicate group.
+- `keep_unique`: retain; no matching feature signature was found.
 
+Only `keep_*` rows are eligible for feature generation. `recommended_split` is deterministic from the composer and feature signature, using a 70%/15%/15% train/dev/test target.
 
-## Identifier Columns
+## Feature generation and merging
 
-- `composer`: classification target. Do not include it as a model input.
-- `filename`: original MIDI filename. Use for traceability only, not model input.
-- `relative_path`: source path within `data/midiclassics`. Use for traceability and duplicate checks only, not model input.
+[`Generate_New_MIDI_Features.ipynb`](notebooks/Generate_New_MIDI_Features.ipynb) reads the split plan and maintains only three new-only files:
 
+- `new_train_features.csv`
+- `new_dev_features.csv`
+- `new_test_features.csv`
 
-## Existing Musical Features
+It uses the same 63-column schema as the original dataset. On later runs it reuses rows already present in those files and calculates expensive features only for newly accepted MIDI files.
 
-### Global note and timing descriptors
+[`Merge_Feature_CSVs.ipynb`](notebooks/Merge_Feature_CSVs.ipynb) validates matching schemas, rejects duplicate `(composer, relative_path)` rows, sorts by composer, and writes the three `combined_*_features.csv` files. It does not modify either input set.
 
-- `tempo`, `num_notes`, `num_chords`, `avg_pitch`, `pitch_range`
-- `avg_duration`, `avg_velocity`, `note_density`
-- `total_duration`, `num_midi_tracks`, `num_note_tracks`
-- `num_unique_programs`, `drum_track_count`, `has_drums`
+## Feature columns
 
-`num_midi_tracks` includes every raw MIDI track, including metadata tracks. `num_note_tracks` counts only instrument tracks containing notes.
+Identifier columns:
 
-### Pitch and dynamics descriptors
+- `composer`: classification target; exclude from model inputs.
+- `filename`: source filename; traceability only.
+- `relative_path`: source path under `data`; traceability and duplicate checks only.
 
-- `pitch_class_0` through `pitch_class_11`: normalized pitch-class histogram.
-- `pitch_entropy`, `pitch_class_variance`, `range_normalized`
-- `pitch_std`, `pitch_median`
-- `velocity_std`, `velocity_range`
-- `duration_std`, `duration_median`
+Musical features include tempo, note and chord counts, pitch-class statistics, duration and velocity statistics, rhythmic density, onset intervals, polyphony, MIDI-track counts, and General MIDI instrument-family track counts. The full schema contains 63 columns.
 
-### Rhythm and texture descriptors
+Some MIDI files contain malformed tempo, key, or time-signature events. Parsing continues when possible, but source metadata may be imperfect.
 
-- `notes_per_chord`, `chord_density`
-- `velocity_variation`, `tempo_note_ratio`, `chromatic_ratio`
-- `onset_interval_mean`, `onset_interval_std`
-- `max_polyphony`, `avg_polyphony`
+## Analysis notebooks
 
-`velocity_variation` and `tempo_note_ratio` are legacy ratio features. `velocity_std`, onset intervals, and polyphony are usually more interpretable rhythm and texture measures. `chromatic_ratio` is the proportion of black-key pitch classes, not a key-aware measure of chromaticism.
+- [`MIDI_EDA.ipynb`](notebooks/MIDI_EDA.ipynb) analyzes the original feature splits.
+- [`Combined_MIDI_EDA.ipynb`](notebooks/Combined_MIDI_EDA.ipynb) has the same EDA structure but uses the three combined CSVs.
 
-### Instrumentation descriptors
+For modeling, exclude `composer`, `filename`, `relative_path`, and the EDA-only `split` column from model inputs. Evaluate class-imbalanced models with macro F1, balanced accuracy, per-composer recall, and confusion matrices.
 
-The following General MIDI program-family columns count note tracks assigned to each family:
+## Model project
 
-- `gm_piano_track_count`, `gm_chromatic_percussion_track_count`, `gm_organ_track_count`, `gm_guitar_track_count`
-- `gm_bass_track_count`, `gm_strings_track_count`, `gm_ensemble_track_count`, `gm_brass_track_count`
-- `gm_reed_track_count`, `gm_pipe_track_count`, `gm_synth_lead_track_count`, `gm_synth_pad_track_count`
-- `gm_synth_effects_track_count`, `gm_ethnic_track_count`, `gm_percussive_track_count`, `gm_sound_effects_track_count`
-
-These metadata can be useful but depend on the quality of the MIDI arrangement and program assignments.
-
-
-## Extraction Workflow
-
-[`notebooks/MIDI_Extract.ipynb`](notebooks/MIDI_Extract.ipynb) has two stages:
-
-1. Create the base feature CSVs only when one or more of the three split files is absent. This slow stage performs MIDI parsing and `music21` chord analysis.
-2. Enrich the existing CSVs in a single idempotent cell. For each feature column, it skips work when that column already exists and is populated for every row. When new features are added later, only missing or incomplete columns are written; the existing train/dev/test assignments are preserved.
-
-Some MIDI files have malformed tempo, key, or time-signature events. Feature extraction continues, but those metadata values may be imperfect for those files.
-
-
-## Exploratory Data Analysis
-
-[`notebooks/MIDI_EDA.ipynb`](notebooks/MIDI_EDA.ipynb) provides a clean, split-aware review of the 63-column dataset. It includes data-quality checks, class-balance plots, pitch/rhythm/texture comparisons, MIDI instrumentation summaries, composer feature profiles, correlation checks, and train-only univariate feature-ranking scores.
-
-For modeling, exclude `composer`, `filename`, `relative_path`, and the EDA-only `split` column from inputs. Treat file-level velocity and MIDI program features carefully: they may reflect source encoding or arrangement conventions as well as composer style.
+`composer_model_project/` contains the CNN/LSTM experiment and its current artifacts. Before re-evaluating it on the expanded data, update its preprocessing and training workflow to consume the three `combined_*_features.csv` files directly, preserving their train/dev/test assignments rather than creating a new random split.

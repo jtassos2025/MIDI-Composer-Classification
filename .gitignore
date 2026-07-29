@@ -27,6 +27,11 @@ Thumbs.db
 Composer_Dataset/
 data/midiclassics
 data/kunstderfuge.com
+data/chopin-comp-midi
+data/Classical Music MIDI (Kaggle)
+data/piano-midi.de
+data/midi-classical-music
+data/new_midi_files
 *.json
 
 # MIDI files (if you don't want raw MIDI tracked)
