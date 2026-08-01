@@ -1,0 +1,339 @@
+filename,relative_path,actual_composer,cnn_prediction,cnn_confidence,lstm_prediction,lstm_confidence
+07 Rondo.mid,Bach\Bwv ''Little Notebook for Anna Magdalena Bach''\07 Rondo.mid,Bach,Mozart,0.95861393,Bach,0.6304051
+11 Marche.mid,Bach\Bwv ''Little Notebook for Anna Magdalena Bach''\11 Marche.mid,Bach,Bach,1.0,Bach,0.88169754
+005505b_.mid,Bach\Bwv001- 400 Chorales\005505b_.mid,Bach,Bach,0.99927956,Bach,0.78989565
+005903b_.mid,Bach\Bwv001- 400 Chorales\005903b_.mid,Bach,Bach,0.99994767,Bach,0.9764604
+006408b_.mid,Bach\Bwv001- 400 Chorales\006408b_.mid,Bach,Bach,0.99943846,Bach,0.91491234
+006707b_.mid,Bach\Bwv001- 400 Chorales\006707b_.mid,Bach,Bach,0.9863331,Bach,0.51961875
+007011b_.mid,Bach\Bwv001- 400 Chorales\007011b_.mid,Bach,Bach,0.9999114,Bach,0.9134574
+007011ch.mid,Bach\Bwv001- 400 Chorales\007011ch.mid,Bach,Bach,0.99978036,Bach,0.9173751
+007206b_.mid,Bach\Bwv001- 400 Chorales\007206b_.mid,Bach,Bach,0.99995494,Bach,0.9197532
+007305bv.mid,Bach\Bwv001- 400 Chorales\007305bv.mid,Bach,Bach,0.9998024,Bach,0.8960676
+007607b_.mid,Bach\Bwv001- 400 Chorales\007607b_.mid,Bach,Bach,0.99986637,Bach,0.9426183
+009106b_.mid,Bach\Bwv001- 400 Chorales\009106b_.mid,Bach,Bach,0.99993587,Bach,0.97583723
+009709ch.mid,Bach\Bwv001- 400 Chorales\009709ch.mid,Bach,Bach,0.9996662,Bach,0.84843117
+014007b_.mid,Bach\Bwv001- 400 Chorales\014007b_.mid,Bach,Bach,0.96777856,Bach,0.7931608
+014500ba.mid,Bach\Bwv001- 400 Chorales\014500ba.mid,Bach,Bach,0.99999666,Bach,0.96176714
+014505b_.mid,Bach\Bwv001- 400 Chorales\014505b_.mid,Bach,Bach,0.9998553,Bach,0.8313138
+014706b_.mid,Bach\Bwv001- 400 Chorales\014706b_.mid,Bach,Bach,0.9988753,Bach,0.9564501
+015301b_.mid,Bach\Bwv001- 400 Chorales\015301b_.mid,Bach,Bach,0.9999223,Bach,0.88593787
+015305b_.mid,Bach\Bwv001- 400 Chorales\015305b_.mid,Bach,Bach,0.99454886,Bach,0.88603085
+015408b_.mid,Bach\Bwv001- 400 Chorales\015408b_.mid,Bach,Bach,0.9999926,Bach,0.9505159
+016106b_.mid,Bach\Bwv001- 400 Chorales\016106b_.mid,Bach,Bach,0.99999106,Bach,0.9124218
+016606b_.mid,Bach\Bwv001- 400 Chorales\016606b_.mid,Bach,Bach,0.96475154,Bach,0.8715821
+016806b_.mid,Bach\Bwv001- 400 Chorales\016806b_.mid,Bach,Bach,0.9999976,Bach,0.94567466
+017106b_.mid,Bach\Bwv001- 400 Chorales\017106b_.mid,Bach,Bach,0.992362,Bach,0.9478149
+017807b_.mid,Bach\Bwv001- 400 Chorales\017807b_.mid,Bach,Bach,0.999969,Bach,0.9204922
+017906b_.mid,Bach\Bwv001- 400 Chorales\017906b_.mid,Bach,Bach,0.99985766,Bach,0.8725074
+018305b_.mid,Bach\Bwv001- 400 Chorales\018305b_.mid,Bach,Bach,0.99898,Bach,0.9226589
+019705b_.mid,Bach\Bwv001- 400 Chorales\019705b_.mid,Bach,Bach,0.99994516,Bach,0.9137714
+022602b_.mid,Bach\Bwv001- 400 Chorales\022602b_.mid,Bach,Bach,0.9987645,Bach,0.83445585
+022602bv.mid,Bach\Bwv001- 400 Chorales\022602bv.mid,Bach,Bach,0.9999777,Bach,0.95913005
+022902b_.mid,Bach\Bwv001- 400 Chorales\022902b_.mid,Bach,Bach,0.99985766,Bach,0.8973278
+024432b_.mid,Bach\Bwv001- 400 Chorales\024432b_.mid,Bach,Bach,0.99996006,Bach,0.8315957
+024511b_.mid,Bach\Bwv001- 400 Chorales\024511b_.mid,Bach,Bach,0.99983203,Bach,0.8736053
+024537b_.mid,Bach\Bwv001- 400 Chorales\024537b_.mid,Bach,Bach,0.9956215,Bach,0.74614084
+024817b2.mid,Bach\Bwv001- 400 Chorales\024817b2.mid,Bach,Bach,0.99975127,Bach,0.9367876
+024828b3.mid,Bach\Bwv001- 400 Chorales\024828b3.mid,Bach,Bach,0.9999809,Bach,0.92430115
+024864qt.mid,Bach\Bwv001- 400 Chorales\024864qt.mid,Bach,Bach,0.9980236,Bach,0.9311059
+026700ba.mid,Bach\Bwv001- 400 Chorales\026700ba.mid,Bach,Bach,0.99569917,Bach,0.84793377
+027300b_.mid,Bach\Bwv001- 400 Chorales\027300b_.mid,Bach,Bach,0.9999963,Bach,0.92443216
+029500b_.mid,Bach\Bwv001- 400 Chorales\029500b_.mid,Bach,Bach,0.99963033,Bach,0.93526304
+030000b_.mid,Bach\Bwv001- 400 Chorales\030000b_.mid,Bach,Bach,0.99980897,Bach,0.959099
+030500b_.mid,Bach\Bwv001- 400 Chorales\030500b_.mid,Bach,Bach,0.9997665,Bach,0.8906491
+031400b_.mid,Bach\Bwv001- 400 Chorales\031400b_.mid,Bach,Bach,0.9999974,Bach,0.93445903
+033700b_.mid,Bach\Bwv001- 400 Chorales\033700b_.mid,Bach,Bach,0.9999713,Bach,0.9297461
+034500b_.mid,Bach\Bwv001- 400 Chorales\034500b_.mid,Bach,Bach,0.9998807,Bach,0.88852257
+034600b_.mid,Bach\Bwv001- 400 Chorales\034600b_.mid,Bach,Bach,0.99974734,Bach,0.9366645
+035200b_.mid,Bach\Bwv001- 400 Chorales\035200b_.mid,Bach,Bach,0.99630654,Bach,0.87710255
+035300b_.mid,Bach\Bwv001- 400 Chorales\035300b_.mid,Bach,Bach,0.99941945,Bach,0.9404713
+036200b_.mid,Bach\Bwv001- 400 Chorales\036200b_.mid,Bach,Bach,0.99910456,Bach,0.82548165
+036400b_.mid,Bach\Bwv001- 400 Chorales\036400b_.mid,Bach,Bach,0.9992912,Bach,0.96192306
+036500b_.mid,Bach\Bwv001- 400 Chorales\036500b_.mid,Bach,Bach,0.9897121,Bach,0.8611758
+036600b_.mid,Bach\Bwv001- 400 Chorales\036600b_.mid,Bach,Bach,0.9993531,Bach,0.8056082
+037000b_.mid,Bach\Bwv001- 400 Chorales\037000b_.mid,Bach,Bach,0.9993445,Bach,0.9039716
+037900b_.mid,Bach\Bwv001- 400 Chorales\037900b_.mid,Bach,Bach,0.99985766,Bach,0.9690503
+038600b_.mid,Bach\Bwv001- 400 Chorales\038600b_.mid,Bach,Bach,0.94454646,Bach,0.7069937
+038700b_.mid,Bach\Bwv001- 400 Chorales\038700b_.mid,Bach,Bach,0.99998903,Bach,0.9476642
+038900b_.mid,Bach\Bwv001- 400 Chorales\038900b_.mid,Bach,Bach,0.9993944,Bach,0.8375397
+039000b_.mid,Bach\Bwv001- 400 Chorales\039000b_.mid,Bach,Bach,0.9045112,Bach,0.67961633
+039500b_.mid,Bach\Bwv001- 400 Chorales\039500b_.mid,Bach,Bach,0.9999838,Bach,0.907943
+039600b_.mid,Bach\Bwv001- 400 Chorales\039600b_.mid,Bach,Bach,0.989583,Bach,0.7770345
+040400bv.mid,Bach\Bwv001- 400 Chorales\040400bv.mid,Bach,Bach,0.98471296,Bach,0.7808316
+040700b_.mid,Bach\Bwv001- 400 Chorales\040700b_.mid,Bach,Bach,0.9997974,Bach,0.9232291
+040800b_.mid,Bach\Bwv001- 400 Chorales\040800b_.mid,Bach,Bach,0.999902,Bach,0.88991815
+041200b_.mid,Bach\Bwv001- 400 Chorales\041200b_.mid,Bach,Bach,0.99996626,Bach,0.9344525
+041400b_.mid,Bach\Bwv001- 400 Chorales\041400b_.mid,Bach,Bach,0.99856913,Bach,0.9689118
+060800qt .mid,Bach\Bwv001- 400 Chorales\060800qt .mid,Bach,Bach,0.9999963,Bach,0.9434312
+064600b_.mid,Bach\Bwv001- 400 Chorales\064600b_.mid,Bach,Bach,0.99809986,Bach,0.9492815
+065000b_.mid,Bach\Bwv001- 400 Chorales\065000b_.mid,Bach,Bach,0.9998604,Bach,0.88626564
+065700b_.mid,Bach\Bwv001- 400 Chorales\065700b_.mid,Bach,Bach,0.9999924,Bach,0.88487995
+065900b_.mid,Bach\Bwv001- 400 Chorales\065900b_.mid,Bach,Bach,0.99891424,Bach,0.890635
+066200b_.mid,Bach\Bwv001- 400 Chorales\066200b_.mid,Bach,Bach,0.99999833,Bach,0.86910963
+066800com.mid,Bach\Bwv001- 400 Chorales\066800com.mid,Bach,Bach,0.97246236,Bach,0.6851225
+069100b_.mid,Bach\Bwv001- 400 Chorales\069100b_.mid,Bach,Bach,0.60774,Mozart,0.39095977
+070100b_.mid,Bach\Bwv001- 400 Chorales\070100b_.mid,Bach,Bach,0.9990338,Bach,0.8349442
+073800b_.mid,Bach\Bwv001- 400 Chorales\073800b_.mid,Bach,Bach,1.0,Bach,0.93816435
+076904b_.mid,Bach\Bwv001- 400 Chorales\076904b_.mid,Bach,Bach,0.9999652,Bach,0.90577024
+076905b_.mid,Bach\Bwv001- 400 Chorales\076905b_.mid,Bach,Bach,0.9998702,Bach,0.85595745
+Bwv003.6v.mid,Bach\Bwv001- 400 Chorales\Bwv003.6v.mid,Bach,Bach,0.9999999,Bach,0.9332555
+Bwv007.7.mid,Bach\Bwv001- 400 Chorales\Bwv007.7.mid,Bach,Bach,0.99999964,Bach,0.94956595
+Bwv010.7.mid,Bach\Bwv001- 400 Chorales\Bwv010.7.mid,Bach,Bach,0.862237,Bach,0.48971036
+Bwv014.5.mid,Bach\Bwv001- 400 Chorales\Bwv014.5.mid,Bach,Bach,0.9997807,Bach,0.92253965
+Bwv020.11.mid,Bach\Bwv001- 400 Chorales\Bwv020.11.mid,Bach,Bach,0.9976441,Bach,0.81805295
+Bwv024.6s.mid,Bach\Bwv001- 400 Chorales\Bwv024.6s.mid,Bach,Bach,0.99973184,Bach,0.8441129
+Bwv025.6v2.mid,Bach\Bwv001- 400 Chorales\Bwv025.6v2.mid,Bach,Bach,0.97322965,Bach,0.82831824
+bsgjg_c.mid,Bach\Bwv001- 400 Chorales\Bwv768 Chorale and Variations\bsgjg_c.mid,Bach,Bach,0.99999964,Bach,0.83920217
+bsgjg_f.mid,Bach\Bwv001- 400 Chorales\Bwv768 Chorale and Variations\bsgjg_f.mid,Bach,Bach,1.0,Bach,0.9405021
+bsgjg_i.mid,Bach\Bwv001- 400 Chorales\Bwv768 Chorale and Variations\bsgjg_i.mid,Bach,Bach,0.9998653,Bach,0.5859704
+Bwv0525 Sonate en trio n1.mid,Bach\Bwv0525 Sonate en trio n1.mid,Bach,Mozart,0.54846555,Mozart,0.5918928
+Bwv0529 Sonate en trio n5.mid,Bach\Bwv0529 Sonate en trio n5.mid,Bach,Bach,0.80375874,Mozart,0.66391283
+Bwv0535 Prelude and Fugue.mid,Bach\Bwv0535 Prelude and Fugue.mid,Bach,Bach,0.9603336,Bach,0.74538755
+Bwv0540 Toccata and Fugue.mid,Bach\Bwv0540 Toccata and Fugue.mid,Bach,Bach,0.9998111,Bach,0.6655537
+Bwv0563 Fantasie con imitation.mid,Bach\Bwv0563 Fantasie con imitation.mid,Bach,Bach,0.99940956,Bach,0.826662
+Bwv0566 Prelude and Fugue.mid,Bach\Bwv0566 Prelude and Fugue.mid,Bach,Bach,0.9998041,Bach,0.69041175
+Bwv0570 Fantasia.mid,Bach\Bwv0570 Fantasia.mid,Bach,Bach,0.9998216,Bach,0.5013105
+Bwv0572 Fantasia.mid,Bach\Bwv0572 Fantasia.mid,Bach,Bach,0.9999999,Bach,0.581068
+Bwv0806 English Suite n1 01mov .mid,Bach\Bwv0806 English Suite n1 01mov .mid,Bach,Bach,0.9988813,Bach,0.88185096
+Bwv0806 English Suite n1 09mov .mid,Bach\Bwv0806 English Suite n1 09mov .mid,Bach,Bach,0.9965005,Bach,0.85171247
+Bwv0811 English Suite n6 5mov.mid,Bach\Bwv0811 English Suite n6 5mov.mid,Bach,Bach,0.57116044,Mozart,0.5193498
+Bwv0811 English Suite n6 7mov.mid,Bach\Bwv0811 English Suite n6 7mov.mid,Bach,Mozart,0.8336045,Bach,0.60544163
+Bwv0817 French Suite n6.mid,Bach\Bwv0817 French Suite n6.mid,Bach,Bach,0.9974584,Bach,0.4767083
+Bwv0915 Toccata.MID,Bach\Bwv0915 Toccata.MID,Bach,Mozart,0.7980381,Mozart,0.4888477
+Bwv0996 Suite for Lute.mid,Bach\Bwv0996 Suite for Lute.mid,Bach,Bach,1.0,Bach,0.8626018
+Bwv1014 Harpsicord and Violin Sonata 3mov.mid,Bach\Bwv1014 Harpsicord and Violin Sonata 3mov.mid,Bach,Mozart,0.922498,Mozart,0.8815556
+Bwv1067 Orchestral Suite n2 2mov.mid,Bach\Bwv1066-1069 Orchestral Suites\Bwv1067 Orchestral Suite n2 2mov.mid,Bach,Bach,0.96556705,Bach,0.8729802
+Bwv1067 Orchestral Suite n2 4mov.mid,Bach\Bwv1066-1069 Orchestral Suites\Bwv1067 Orchestral Suite n2 4mov.mid,Bach,Bach,0.9749933,Bach,0.9173803
+Bwv1069 Orchestral Suite n4 2mov.mid,Bach\Bwv1066-1069 Orchestral Suites\Bwv1069 Orchestral Suite n4 2mov.mid,Bach,Bach,0.99113244,Bach,0.91029334
+Bwv1069 Orchestral Suite n4 5mov.mid,Bach\Bwv1066-1069 Orchestral Suites\Bwv1069 Orchestral Suite n4 5mov.mid,Bach,Bach,0.84652454,Bach,0.92668015
+Bwv1066 Orchestral suite n1 Gavotte.mid,Bach\Bwv1066-1069 Orchestral Suites\Nueva carpeta\Bwv1066 Orchestral suite n1 Gavotte.mid,Bach,Bach,0.99998033,Bach,0.8215694
+Bwv1067 Orchestral suite n2 Bouree.mid,Bach\Bwv1066-1069 Orchestral Suites\Nueva carpeta\Bwv1067 Orchestral suite n2 Bouree.mid,Bach,Bach,0.99997973,Bach,0.7990874
+Bwv1068 Orchestral suite n3 Bourree.mid,Bach\Bwv1066-1069 Orchestral Suites\Nueva carpeta\Bwv1068 Orchestral suite n3 Bourree.mid,Bach,Bach,0.9982931,Bach,0.8347781
+Bwv1068 Orchestral suite n3 Gigue.mid,Bach\Bwv1066-1069 Orchestral Suites\Nueva carpeta\Bwv1068 Orchestral suite n3 Gigue.mid,Bach,Bach,0.99899834,Bach,0.8150577
+Musical Offering n14.MID,Bach\Bwv1079 The Musical Offering\Musical Offering n14.MID,Bach,Bach,0.9185644,Bach,0.84238535
+Musical Offering n17 Trio-Andante.MID,Bach\Bwv1079 The Musical Offering\Musical Offering n17 Trio-Andante.MID,Bach,Bach,0.99924517,Bach,0.9063536
+Musical Offering n18 Trio-Allegro.MID,Bach\Bwv1079 The Musical Offering\Musical Offering n18 Trio-Allegro.MID,Bach,Bach,0.9996946,Bach,0.82736385
+Canon Fugue n4.mid,Bach\Bwv1080 The Art Of Fugue\Canon Fugue n4.mid,Bach,Bach,0.99624324,Bach,0.86700815
+Counter Fugue n3.mid,Bach\Bwv1080 The Art Of Fugue\Counter Fugue n3.mid,Bach,Bach,0.99999034,Bach,0.8486226
+15. Et Incarnatus & Cricifixus.mid,Bach\Bwv232 Mass\15. Et Incarnatus & Cricifixus.mid,Bach,Bach,0.97632515,Mozart,0.61009026
+22. Agnus Dei.mid,Bach\Bwv232 Mass\22. Agnus Dei.mid,Bach,Beethoven,0.40211448,Beethoven,0.3196619
+2.Aus Liebe will mein Heiland sterban Soprano Aria.mid,Bach\Bwv244 St. Matthew Passion\2.Aus Liebe will mein Heiland sterban Soprano Aria.mid,Bach,Mozart,0.9395366,Mozart,0.86639297
+3.Gebt mir meinen Jesum weider Bass Aria.mid,Bach\Bwv244 St. Matthew Passion\3.Gebt mir meinen Jesum weider Bass Aria.mid,Bach,Bach,0.92982006,Bach,0.7167287
+invent3.mid,Bach\Bwv772-786 Two Part Inventions\Bwv772-786 Two Part Inventions\invent3.mid,Bach,Bach,0.99995387,Bach,0.86253375
+Bwv783 Invention n12 .mid,Bach\Bwv772-786 Two Part Inventions\Bwv783 Invention n12 .mid,Bach,Bach,0.9980286,Bach,0.8277928
+Bwv786 Invention n15.mid,Bach\Bwv772-786 Two Part Inventions\Bwv786 Invention n15.mid,Bach,Bach,0.99963105,Bach,0.9019159
+Bwv0789 Sinfonia n3.mid,Bach\Bwv787-801 Three Part Inventions (Sinfonias)\Bwv0789 Sinfonia n3.mid,Bach,Bach,0.99999857,Bach,0.92152673
+Bwv0793 Sinfonia n7.mid,Bach\Bwv787-801 Three Part Inventions (Sinfonias)\Bwv0793 Sinfonia n7.mid,Bach,Bach,0.999992,Bach,0.9157105
+Bwv0798 Sinfonia n12.mid,Bach\Bwv787-801 Three Part Inventions (Sinfonias)\Bwv0798 Sinfonia n12.mid,Bach,Bach,0.9999914,Bach,0.83235794
+WT1_6A.MID,Bach\Bwv846-869 The Well Tempered Clavier Book 1\WT1_6A.MID,Bach,Bach,0.9851403,Bach,0.85815066
+WT1_X2A.MID,Bach\Bwv846-869 The Well Tempered Clavier Book 1\WT1_X2A.MID,Bach,Bach,0.99909604,Bach,0.70164865
+WT1_X7B.MID,Bach\Bwv846-869 The Well Tempered Clavier Book 1\WT1_X7B.MID,Bach,Bach,0.9999796,Bach,0.81279606
+WT1_XX1B.MID,Bach\Bwv846-869 The Well Tempered Clavier Book 1\WT1_XX1B.MID,Bach,Bach,0.9997898,Bach,0.7994242
+WT1_XX_B.MID,Bach\Bwv846-869 The Well Tempered Clavier Book 1\WT1_XX_B.MID,Bach,Bach,0.99981457,Bach,0.8645092
+Wtcii10b.mid,Bach\Bwv870-893 The Well Tempered Clavier Book 2\Wtcii10b.mid,Bach,Bach,0.9981554,Bach,0.88764066
+Wtcii11b.mid,Bach\Bwv870-893 The Well Tempered Clavier Book 2\Wtcii11b.mid,Bach,Bach,0.9975019,Bach,0.78366256
+Wtcii14b.mid,Bach\Bwv870-893 The Well Tempered Clavier Book 2\Wtcii14b.mid,Bach,Bach,0.9954639,Bach,0.89091027
+Wtcii22b.mid,Bach\Bwv870-893 The Well Tempered Clavier Book 2\Wtcii22b.mid,Bach,Bach,0.99960726,Bach,0.8271258
+Variation 03.mid,Bach\Bwv988 The Goldberg Variations\Variation 03.mid,Bach,Bach,0.9991872,Bach,0.86663187
+Variation 05.mid,Bach\Bwv988 The Goldberg Variations\Variation 05.mid,Bach,Bach,0.9029538,Bach,0.63901305
+Variation 12.mid,Bach\Bwv988 The Goldberg Variations\Variation 12.mid,Bach,Bach,0.99988353,Bach,0.9146842
+Variation 23.mid,Bach\Bwv988 The Goldberg Variations\Variation 23.mid,Bach,Bach,0.999453,Bach,0.7964167
+Variation 24.mid,Bach\Bwv988 The Goldberg Variations\Variation 24.mid,Bach,Bach,0.98306215,Bach,0.7379906
+Variation 25.mid,Bach\Bwv988 The Goldberg Variations\Variation 25.mid,Bach,Mozart,0.70502245,Mozart,0.57065374
+Bwv1041 Violin Concerto n1 2mov.mid,Bach\Concertos\Bwv1041 Violin Concerto n1 2mov.mid,Bach,Bach,0.99110514,Bach,0.6726704
+Bwv1042 Violin Concerto n2 1mov.mid,Bach\Concertos\Bwv1042 Violin Concerto n2 1mov.mid,Bach,Bach,0.9807493,Bach,0.3836403
+Bwv1042 Violin Concerto n2 2mov.mid,Bach\Concertos\Bwv1042 Violin Concerto n2 2mov.mid,Bach,Chopin,0.479056,Chopin,0.7428781
+Bwv1043 Two Violins Concerto n3 3mov.mid,Bach\Concertos\Bwv1043 Two Violins Concerto n3 3mov.mid,Bach,Bach,0.91253644,Bach,0.7603706
+Bwv1044 Flute Violin and Harpsichord Concerto 3mov.mid,Bach\Concertos\Bwv1044 Flute Violin and Harpsichord Concerto 3mov.mid,Bach,Bach,0.96449196,Bach,0.5422973
+Bwv1047 Brandenburg Concert n2 3mov.mid,Bach\Concertos\Bwv1047 Brandenburg Concert n2 3mov.mid,Bach,Bach,0.93946135,Bach,0.755496
+Bwv1049 Brandenburg Concert n4 2mov.mid,Bach\Concertos\Bwv1049 Brandenburg Concert n4 2mov.mid,Bach,Bach,0.548181,Mozart,0.6242784
+Bwv1052 Harpsichord Concerto n1 2mov.mid,Bach\Harpsichord Concertos\Bwv1052 Harpsichord Concerto n1 2mov.mid,Bach,Chopin,0.4340174,Bach,0.7471572
+Bwv1054 Harpsichord Concerto n3 3mov.mid,Bach\Harpsichord Concertos\Bwv1054 Harpsichord Concerto n3 3mov.mid,Bach,Bach,0.9984914,Bach,0.90404975
+Piano version of Bachs two part inventions No.10.mid,Bach\Piano version of Bachs two part inventions No.10.mid,Bach,Bach,0.9995154,Bach,0.9239208
+Piano version of Bachs two part inventions No.12.mid,Bach\Piano version of Bachs two part inventions No.12.mid,Bach,Bach,0.996757,Bach,0.8737323
+Piano version of Bachs two part inventions No.13.mid,Bach\Piano version of Bachs two part inventions No.13.mid,Bach,Bach,0.7842641,Bach,0.7949761
+Piano version of Bachs two part inventions No.2.mid,Bach\Piano version of Bachs two part inventions No.2.mid,Bach,Bach,0.7011036,Bach,0.568941
+Piano version of Bachs two part inventions No.8.mid,Bach\Piano version of Bachs two part inventions No.8.mid,Bach,Bach,0.99917126,Bach,0.80030423
+Andante in F Major.mid,Beethoven\Andante in F Major.mid,Beethoven,Beethoven,0.9908317,Beethoven,0.6558938
+Bagatella op33 n1.mid,Beethoven\Bagatella op33 n1.mid,Beethoven,Beethoven,0.60908514,Mozart,0.7759925
+Bagatella op33 n3.mid,Beethoven\Bagatella op33 n3.mid,Beethoven,Beethoven,0.89455,Beethoven,0.88960344
+Bagatella op33 n5.mid,Beethoven\Bagatella op33 n5.mid,Beethoven,Chopin,0.4848255,Beethoven,0.57329667
+Hess059 Exercizio Per Pianoforte.mid,Beethoven\Hess059 Exercizio Per Pianoforte.mid,Beethoven,Chopin,0.8244914,Beethoven,0.5797468
+Hess074 Bagatella.mid,Beethoven\Hess074 Bagatella.mid,Beethoven,Chopin,0.9830635,Beethoven,0.46503288
+Lieder op48 n4 ''Die Ehre Gottes Aus Der Natur''.mid,Beethoven\Lieder op48 n4 ''Die Ehre Gottes Aus Der Natur''.mid,Beethoven,Beethoven,0.84259605,Chopin,0.57034177
+Op.51.mid,Beethoven\Op.51.mid,Beethoven,Mozart,0.9276848,Mozart,0.7679548
+"Piano Concerto No5,Mov.1.mid","Beethoven\Piano Concerto No5,Mov.1.mid",Beethoven,Beethoven,0.9917427,Beethoven,0.92879224
+Piano Concerto n2 op19 1mov.mid,Beethoven\Piano Concerto n2 op19 1mov.mid,Beethoven,Mozart,0.70451725,Mozart,0.7464032
+Piano Concerto n2 op19 2mov.mid,Beethoven\Piano Concerto n2 op19 2mov.mid,Beethoven,Mozart,0.768153,Beethoven,0.4134607
+Piano Sonata n03.mid,Beethoven\Piano Sonatas\Piano Sonata n03.mid,Beethoven,Beethoven,0.9357705,Beethoven,0.59547246
+Piano Sonata n07.mid,Beethoven\Piano Sonatas\Piano Sonata n07.mid,Beethoven,Beethoven,0.9848551,Beethoven,0.65793073
+Piano Sonata n12 op26.mid,Beethoven\Piano Sonatas\Piano Sonata n12 op26.mid,Beethoven,Beethoven,0.9932069,Chopin,0.496133
+Piano Sonata n14 op27  ''Moonlight''.mid,Beethoven\Piano Sonatas\Piano Sonata n14 op27  ''Moonlight''.mid,Beethoven,Beethoven,0.57868946,Chopin,0.7867687
+Piano Sonata n24.mid,Beethoven\Piano Sonatas\Piano Sonata n24.mid,Beethoven,Beethoven,0.6832695,Chopin,0.71558666
+Piano Sonata n31 op110.mid,Beethoven\Piano Sonatas\Piano Sonata n31 op110.mid,Beethoven,Beethoven,0.8812966,Chopin,0.6851199
+Preludes 2 Through Major keys 39.mid,Beethoven\Preludes 2 Through Major keys 39.mid,Beethoven,Beethoven,0.6711504,Bach,0.37409633
+Rage over a lost pennny.mid,Beethoven\Rage over a lost pennny.mid,Beethoven,Beethoven,0.42004,Bach,0.683652
+Romance piano.mid,Beethoven\Romance piano.mid,Beethoven,Beethoven,0.5295455,Beethoven,0.61747503
+Sketch for Piano Allegro.mid,Beethoven\Sketch for Piano Allegro.mid,Beethoven,Beethoven,0.9785386,Mozart,0.36055887
+Sonata Opus.81a -Les Adieux- E flat No.1.mid,Beethoven\Sonata Opus.81a -Les Adieux- E flat No.1.mid,Beethoven,Beethoven,0.9133128,Beethoven,0.28756917
+String Quartet n16 op135 4mov.mid,Beethoven\String Quartet n16 op135 4mov.mid,Beethoven,Beethoven,0.64764744,Beethoven,0.4954519
+String Quartet n2 op18 n2 3mov.mid,Beethoven\String Quartet n2 op18 n2 3mov.mid,Beethoven,Beethoven,0.997538,Beethoven,0.86889935
+Symphony n1 4mov.mid,Beethoven\Symphonies\Symphony n1 4mov.mid,Beethoven,Mozart,0.97120315,Mozart,0.87992793
+Symphony n2 op36 3mov.mid,Beethoven\Symphonies\Symphony n2 op36 3mov.mid,Beethoven,Beethoven,0.5073525,Mozart,0.67801785
+Symphony n5 op67 1mov.mid,Beethoven\Symphonies\Symphony n5 op67 1mov.mid,Beethoven,Beethoven,0.9024668,Beethoven,0.8068365
+Symphony n7 4mov.mid,Beethoven\Symphonies\Symphony n7 4mov.mid,Beethoven,Beethoven,0.88267815,Beethoven,0.72948956
+Symphony op125 n9 3mov ''Choral''.mid,Beethoven\Symphonies\Symphony op125 n9 3mov ''Choral''.mid,Beethoven,Beethoven,0.8818416,Mozart,0.5041695
+Symphony op68 n6 ''Pastorale''.mid,Beethoven\Symphonies\Symphony op68 n6 ''Pastorale''.mid,Beethoven,Beethoven,0.9573161,Beethoven,0.82851547
+Symphony op93 n8 2mov .mid,Beethoven\Symphonies\Symphony op93 n8 2mov .mid,Beethoven,Beethoven,0.88781315,Mozart,0.5516054
+WoO048 Rondo.mid,Beethoven\WoO048 Rondo.mid,Beethoven,Beethoven,0.95966345,Beethoven,0.7939643
+WoO083 Six Escotish Dances for Piano.mid,Beethoven\WoO083 Six Escotish Dances for Piano.mid,Beethoven,Beethoven,0.85486525,Beethoven,0.67802733
+Beethoven_WoO80_thema_8bars_14_1.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_thema_8bars_14_1.mid,Beethoven,Beethoven,1.0,Beethoven,0.987666
+Beethoven_WoO80_thema_8bars_19_1.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_thema_8bars_19_1.mid,Beethoven,Beethoven,0.99999964,Beethoven,0.98713195
+Beethoven_WoO80_thema_8bars_Score_1.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_thema_8bars_Score_1.mid,Beethoven,Beethoven,0.99999976,Beethoven,0.98725116
+Beethoven_WoO80_var10_8bars_19_8.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var10_8bars_19_8.mid,Beethoven,Beethoven,0.99942964,Beethoven,0.883781
+Beethoven_WoO80_var10_8bars_22_8.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var10_8bars_22_8.mid,Beethoven,Beethoven,0.99863714,Beethoven,0.87870973
+Beethoven_WoO80_var10_8bars_3_8.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var10_8bars_3_8.mid,Beethoven,Beethoven,0.9979734,Beethoven,0.8966473
+Beethoven_WoO80_var10_8bars_Score2_8.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var10_8bars_Score2_8.mid,Beethoven,Beethoven,0.9920082,Beethoven,0.7862172
+Beethoven_WoO80_var15_8bars_1_10.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var15_8bars_1_10.mid,Beethoven,Beethoven,0.99999034,Beethoven,0.9774286
+Beethoven_WoO80_var15_8bars_Score_10.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var15_8bars_Score_10.mid,Beethoven,Beethoven,0.99918276,Beethoven,0.74760085
+Beethoven_WoO80_var17_8bars_18_11.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var17_8bars_18_11.mid,Beethoven,Beethoven,0.9999758,Beethoven,0.9889415
+Beethoven_WoO80_var17_8bars_2_11.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var17_8bars_2_11.mid,Beethoven,Beethoven,0.99996555,Beethoven,0.9886545
+Beethoven_WoO80_var18_8bars_18_12.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var18_8bars_18_12.mid,Beethoven,Beethoven,0.9982634,Beethoven,0.8975081
+Beethoven_WoO80_var18_8bars_26_12.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var18_8bars_26_12.mid,Beethoven,Beethoven,0.99970144,Beethoven,0.9389188
+Beethoven_WoO80_var18_8bars_3_12.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var18_8bars_3_12.mid,Beethoven,Beethoven,0.9996506,Beethoven,0.91424435
+Beethoven_WoO80_var18_8bars_Score2_12.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var18_8bars_Score2_12.mid,Beethoven,Beethoven,0.99886936,Beethoven,0.76678646
+Beethoven_WoO80_var18_8bars_Score_12.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var18_8bars_Score_12.mid,Beethoven,Beethoven,0.99854964,Beethoven,0.758899
+Beethoven_WoO80_var23_8bars_19_13.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var23_8bars_19_13.mid,Beethoven,Beethoven,0.9999819,Beethoven,0.99303186
+Beethoven_WoO80_var23_8bars_3_13.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var23_8bars_3_13.mid,Beethoven,Beethoven,0.99997103,Beethoven,0.99138594
+Beethoven_WoO80_var25_8bars_18_14.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var25_8bars_18_14.mid,Beethoven,Beethoven,0.99999607,Beethoven,0.98194075
+Beethoven_WoO80_var27_8bars_19_15.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var27_8bars_19_15.mid,Beethoven,Beethoven,0.9985862,Beethoven,0.84953916
+Beethoven_WoO80_var30_8bars_19_17.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var30_8bars_19_17.mid,Beethoven,Beethoven,0.99450076,Beethoven,0.96109015
+Beethoven_WoO80_var30_8bars_1_17.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var30_8bars_1_17.mid,Beethoven,Beethoven,0.9940659,Beethoven,0.9540586
+Beethoven_WoO80_var30_8bars_2_17.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var30_8bars_2_17.mid,Beethoven,Beethoven,0.9996749,Beethoven,0.9693879
+Beethoven_WoO80_var3_8bars_11_2.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var3_8bars_11_2.mid,Beethoven,Beethoven,0.9999987,Beethoven,0.9560071
+Beethoven_WoO80_var3_8bars_24_2.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var3_8bars_24_2.mid,Beethoven,Beethoven,0.9999987,Beethoven,0.9557396
+Beethoven_WoO80_var3_8bars_26_2.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var3_8bars_26_2.mid,Beethoven,Beethoven,0.99999344,Beethoven,0.95227545
+Beethoven_WoO80_var4_8bars_14_3.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var4_8bars_14_3.mid,Beethoven,Beethoven,0.9999999,Beethoven,0.9951827
+Beethoven_WoO80_var4_8bars_Score2_3.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var4_8bars_Score2_3.mid,Beethoven,Beethoven,0.99999976,Beethoven,0.9901674
+Beethoven_WoO80_var5_8bars_11_4.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var5_8bars_11_4.mid,Beethoven,Beethoven,0.9999677,Beethoven,0.9724699
+Beethoven_WoO80_var5_8bars_24_4.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var5_8bars_24_4.mid,Beethoven,Beethoven,0.9999838,Beethoven,0.97913766
+Beethoven_WoO80_var6_8bars_19_5.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var6_8bars_19_5.mid,Beethoven,Beethoven,0.99999857,Beethoven,0.98673046
+Beethoven_WoO80_var6_8bars_2_5.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var6_8bars_2_5.mid,Beethoven,Beethoven,0.99999774,Beethoven,0.9841905
+Beethoven_WoO80_var6_8bars_7_5.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var6_8bars_7_5.mid,Beethoven,Beethoven,0.99998987,Beethoven,0.9777208
+Beethoven_WoO80_var8_8bars_19_6.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var8_8bars_19_6.mid,Beethoven,Beethoven,0.9999379,Beethoven,0.9388746
+Beethoven_WoO80_var8_8bars_1_6.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var8_8bars_1_6.mid,Beethoven,Beethoven,0.99984396,Beethoven,0.95031005
+Beethoven_WoO80_var8_8bars_3_6.mid,new_midi_files\BigSynthPiano\midi\Beethoven_WoO80_var8_8bars_3_6.mid,Beethoven,Beethoven,0.9998234,Beethoven,0.8729963
+000125_all.mid,new_midi_files\ChoralTech.us\Beethoven\000125_all.mid,Beethoven,Mozart,0.97943044,Mozart,0.91854376
+000126_all.mid,new_midi_files\ChoralTech.us\Beethoven\000126_all.mid,Beethoven,Mozart,0.9829972,Mozart,0.91018194
+Beethoven_-_Pathetique_2nd_Movement.mid,new_midi_files\commons.wikimedia.org\Beethoven\Beethoven_-_Pathetique_2nd_Movement.mid,Beethoven,Beethoven,0.84363186,Chopin,0.64301056
+Für_Elise.mid,new_midi_files\commons.wikimedia.org\Beethoven\Für_Elise.mid,Beethoven,Beethoven,0.9279288,Beethoven,0.86167246
+beethoven-134.mid,new_midi_files\midi-classical-music\data\beethoven-134.mid,Beethoven,Beethoven,0.9833921,Beethoven,0.66819924
+beethoven-83.mid,new_midi_files\midi-classical-music\data\beethoven-83.mid,Beethoven,Chopin,0.7972367,Chopin,0.8679623
+appass_1.mid,new_midi_files\piano-midi.de\Beethoven\appass_1.mid,Beethoven,Beethoven,0.7400735,Chopin,0.511867
+elise.mid,new_midi_files\piano-midi.de\Beethoven\elise.mid,Beethoven,Beethoven,0.66255474,Beethoven,0.6992157
+waldstein_2.mid,new_midi_files\piano-midi.de\Beethoven\waldstein_2.mid,Beethoven,Beethoven,0.661309,Chopin,0.64306617
+"19 Polish Songs, for Solo Voice and Piano accomplements, No.14.mid","Chopin\19 Polish Songs, for Solo Voice and Piano accomplements, No.14.mid",Chopin,Bach,0.5989999,Bach,0.6602701
+"19 Polish Songs, for Solo Voice and Piano accomplements, No.6.mid","Chopin\19 Polish Songs, for Solo Voice and Piano accomplements, No.6.mid",Chopin,Chopin,0.5124605,Bach,0.35129547
+"19 Polish Songs, for Solo Voice and Piano accomplements, No.8.mid","Chopin\19 Polish Songs, for Solo Voice and Piano accomplements, No.8.mid",Chopin,Mozart,0.9503965,Mozart,0.46849388
+2 Polonaises op26 n1.mid,Chopin\2 Polonaises op26 n1.mid,Chopin,Beethoven,0.7597125,Chopin,0.8984919
+Etude op10 n01.mid,Chopin\Etude op10 n01.mid,Chopin,Chopin,0.936175,Chopin,0.7001824
+Etude op10 n06.mid,Chopin\Etude op10 n06.mid,Chopin,Chopin,0.7871278,Bach,0.57350403
+Etude op10 n09.mid,Chopin\Etude op10 n09.mid,Chopin,Chopin,0.5986675,Chopin,0.6332386
+Etude op10 n10.mid,Chopin\Etude op10 n10.mid,Chopin,Chopin,0.996427,Chopin,0.9873695
+Etude op25 n10.mid,Chopin\Etude op25 n10.mid,Chopin,Chopin,0.9659223,Chopin,0.9749692
+Etude op25 n12 ''The Ocean''.mid,Chopin\Etude op25 n12 ''The Ocean''.mid,Chopin,Chopin,0.97430724,Beethoven,0.5516248
+Finale to B Minor Paino Sonata.mid,Chopin\Finale to B Minor Paino Sonata.mid,Chopin,Chopin,0.9765926,Chopin,0.96222466
+Nocturne op15 n2.mid,Chopin\Nocturne op15 n2.mid,Chopin,Chopin,0.9874951,Chopin,0.9565468
+Nocturne op62 n2.mid,Chopin\Nocturne op62 n2.mid,Chopin,Chopin,0.9654645,Chopin,0.87444013
+Piano Concerto n1 op11 2mov.mid,Chopin\Piano Concerto n1 op11 2mov.mid,Chopin,Beethoven,0.5644841,Beethoven,0.6014675
+Piano Concerto n2 1mov.mid,Chopin\Piano Concerto n2 1mov.mid,Chopin,Beethoven,0.8003961,Beethoven,0.8650667
+Piano Concerto n2 3mov.mid,Chopin\Piano Concerto n2 3mov.mid,Chopin,Beethoven,0.6857818,Beethoven,0.89835036
+Prelude n06 op28 ''Tolling Bells''.mid,Chopin\Prelude n06 op28 ''Tolling Bells''.mid,Chopin,Chopin,0.93926054,Bach,0.49138442
+Prelude n16 op28 ''Hades''.mid,Chopin\Prelude n16 op28 ''Hades''.mid,Chopin,Chopin,0.99668616,Chopin,0.98538464
+Prelude n19 op28.mid,Chopin\Prelude n19 op28.mid,Chopin,Chopin,0.97386235,Chopin,0.82270813
+Prelude n22 op28 ''Impatience''.mid,Chopin\Prelude n22 op28 ''Impatience''.mid,Chopin,Chopin,0.9883287,Chopin,0.8323699
+Scherzo op31.mid,Chopin\Scherzo op31.mid,Chopin,Chopin,0.99025613,Chopin,0.9802908
+chpn-p12.mid,new_midi_files\Classical Music MIDI (Kaggle)\Chopin\chpn-p12.mid,Chopin,Chopin,0.99586403,Chopin,0.91636425
+chpn_op25_e11.mid,new_midi_files\Classical Music MIDI (Kaggle)\Chopin\chpn_op25_e11.mid,Chopin,Chopin,0.9861487,Chopin,0.874952
+chpn_op25_e3.mid,new_midi_files\Classical Music MIDI (Kaggle)\Chopin\chpn_op25_e3.mid,Chopin,Chopin,0.9851539,Chopin,0.9051797
+chpn_op25_e4.mid,new_midi_files\Classical Music MIDI (Kaggle)\Chopin\chpn_op25_e4.mid,Chopin,Chopin,0.661597,Beethoven,0.52494085
+Adam Piórkowski – Chopin Piano Competition 2015 (preliminar [Gv5ZcnvoDQ4].mid,new_midi_files\chopin-comp-midi\data\adam_piorkowski\Adam Piórkowski – Chopin Piano Competition 2015 (preliminar [Gv5ZcnvoDQ4].mid,Chopin,Chopin,0.9954781,Chopin,0.97833234
+Alexandra Sikorskaya – Chopin Piano Competition 2015 (prelim [AtkCS4GRq_k].mid,new_midi_files\chopin-comp-midi\data\alexandra_sikorskaya\Alexandra Sikorskaya – Chopin Piano Competition 2015 (prelim [AtkCS4GRq_k].mid,Chopin,Chopin,0.99581736,Chopin,0.97151226
+Anton Gerzenberg – Chopin Piano Competition 2015 (preliminary round) [r_E9ZoVnJNs].mid,new_midi_files\chopin-comp-midi\data\anton_gerzenberg\Anton Gerzenberg – Chopin Piano Competition 2015 (preliminary round) [r_E9ZoVnJNs].mid,Chopin,Chopin,0.99603623,Chopin,0.9802658
+Arisa Onoda – Chopin Piano Competition 2015 (preliminary rou [-wh2g1hQO0Q].mid,new_midi_files\chopin-comp-midi\data\arisa_onoda\Arisa Onoda – Chopin Piano Competition 2015 (preliminary rou [-wh2g1hQO0Q].mid,Chopin,Chopin,0.9977683,Chopin,0.9928329
+Boyang Shi – Chopin Piano Competition 2015 (preliminary roun [Ak6oVLilG4Y].mid,new_midi_files\chopin-comp-midi\data\boyang_shi\Boyang Shi – Chopin Piano Competition 2015 (preliminary roun [Ak6oVLilG4Y].mid,Chopin,Chopin,0.996506,Chopin,0.98595273
+Chisaki Doi – Chopin Piano Competition 2015 (preliminary round) [mqV_2HwGUDA].mid,new_midi_files\chopin-comp-midi\data\chisaki_doi\Chisaki Doi – Chopin Piano Competition 2015 (preliminary round) [mqV_2HwGUDA].mid,Chopin,Chopin,0.9970517,Chopin,0.99099815
+Chulmin Lee – Chopin Piano Competition 2015 (preliminary rou [2-e0g57mToE].mid,new_midi_files\chopin-comp-midi\data\chulmin_lee\Chulmin Lee – Chopin Piano Competition 2015 (preliminary rou [2-e0g57mToE].mid,Chopin,Chopin,0.9945328,Chopin,0.9868711
+Georgijs Osokins – Chopin Piano Competition 2015 (preliminar [ylrIi1cZ6CA].mid,new_midi_files\chopin-comp-midi\data\georgijs_osokins\Georgijs Osokins – Chopin Piano Competition 2015 (preliminar [ylrIi1cZ6CA].mid,Chopin,Chopin,0.996748,Chopin,0.9921049
+Kate Liu – Chopin Piano Competition 2015 (preliminary round) [SiqzOHfndfA].mid,new_midi_files\chopin-comp-midi\data\kate_liu\Kate Liu – Chopin Piano Competition 2015 (preliminary round) [SiqzOHfndfA].mid,Chopin,Chopin,0.99624026,Chopin,0.9879318
+Michał Szymanowski – Chopin Piano Competition 2015 (prelimin [ulep674oZ68].mid,new_midi_files\chopin-comp-midi\data\micha_szymanowski\Michał Szymanowski – Chopin Piano Competition 2015 (prelimin [ulep674oZ68].mid,Chopin,Chopin,0.99609756,Chopin,0.98603374
+Motohiro Sato – Chopin Piano Competition 2015 (preliminary r [k-m8ojetPfE].mid,new_midi_files\chopin-comp-midi\data\motohiro_sato\Motohiro Sato – Chopin Piano Competition 2015 (preliminary r [k-m8ojetPfE].mid,Chopin,Chopin,0.9953625,Chopin,0.9794134
+Nao Mieno – Chopin Piano Competition 2015 (preliminary round [JJrEB9bk5mY].mid,new_midi_files\chopin-comp-midi\data\nao_mieno\Nao Mieno – Chopin Piano Competition 2015 (preliminary round [JJrEB9bk5mY].mid,Chopin,Chopin,0.99602604,Chopin,0.9830003
+Otis William Beasley – Chopin Piano Competition 2015 (preliminary round) [fWFXvr35vng].mid,new_midi_files\chopin-comp-midi\data\otis_william_beasley\Otis William Beasley – Chopin Piano Competition 2015 (preliminary round) [fWFXvr35vng].mid,Chopin,Chopin,0.9968923,Chopin,0.98218405
+Vladimir Matusevich – Chopin Piano Competition 2015 (prelimi [9P03qcab1vA].mid,new_midi_files\chopin-comp-midi\data\vladimir_matusevich\Vladimir Matusevich – Chopin Piano Competition 2015 (prelimi [9P03qcab1vA].mid,Chopin,Chopin,0.99236166,Chopin,0.9873728
+Weiwen Ma – Chopin Piano Competition 2015 (preliminary round [MM0B0hOatAQ].mid,new_midi_files\chopin-comp-midi\data\weiwen_ma\Weiwen Ma – Chopin Piano Competition 2015 (preliminary round [MM0B0hOatAQ].mid,Chopin,Chopin,0.9929496,Chopin,0.9793154
+Yui Nakamura – Chopin Piano Competition 2015 (preliminary ro [XdmOvUP3S1M].mid,new_midi_files\chopin-comp-midi\data\yui_nakamura\Yui Nakamura – Chopin Piano Competition 2015 (preliminary ro [XdmOvUP3S1M].mid,Chopin,Chopin,0.99696004,Chopin,0.9947331
+Yuliya Yermalayeva – Chopin Piano Competition 2015 (prelimin [CKznjD6A64k].mid,new_midi_files\chopin-comp-midi\data\yuliya_yermalayeva\Yuliya Yermalayeva – Chopin Piano Competition 2015 (prelimin [CKznjD6A64k].mid,Chopin,Chopin,0.99732345,Chopin,0.98702663
+Zuzanna Pietrzak – Chopin Piano Competition 2015 (preliminar [WEUrdoaG80Y].mid,new_midi_files\chopin-comp-midi\data\zuzanna_pietrzak\Zuzanna Pietrzak – Chopin Piano Competition 2015 (preliminar [WEUrdoaG80Y].mid,Chopin,Chopin,0.9943153,Chopin,0.98788303
+Chopin_Nocturne_no_19_in_E_minor.mid,new_midi_files\commons.wikimedia.org\Chopin\Chopin_Nocturne_no_19_in_E_minor.mid,Chopin,Bach,0.599978,Bach,0.59495544
+chpn_op10_e12_format0.mid,new_midi_files\piano-midi.de\Chopin\chpn_op10_e12_format0.mid,Chopin,Chopin,0.6951816,Chopin,0.5104297
+"A piece for Piano,K.176.mid","Mozart\A piece for Piano,K.176.mid",Mozart,Bach,0.93667215,Bach,0.4519601
+K02 Minuet in F.mid,Mozart\K02 Minuet in F.mid,Mozart,Beethoven,0.5883772,Mozart,0.43436265
+K05 Minuet for Harpsichord.mid,Mozart\K05 Minuet for Harpsichord.mid,Mozart,Mozart,0.64064866,Beethoven,0.49907866
+K314 Flute Concerto n2 1mov.mid,Mozart\K314 Flute Concerto n2 1mov.mid,Mozart,Mozart,0.9997105,Mozart,0.975525
+K314 Flute Concerto n2 2mov.mid,Mozart\K314 Flute Concerto n2 2mov.mid,Mozart,Mozart,0.9973742,Mozart,0.9548621
+K398 Piano Variations ''Salve Tu Domine''.mid,Mozart\K398 Piano Variations ''Salve Tu Domine''.mid,Mozart,Beethoven,0.947694,Beethoven,0.7799906
+K492 Overture ''Le Nozze di Figaro''.mid,Mozart\K492 Overture ''Le Nozze di Figaro''.mid,Mozart,Mozart,0.9954399,Mozart,0.9094474
+K495 Horn Concerto n4 1mov.mid,Mozart\K495 Horn Concerto n4 1mov.mid,Mozart,Mozart,0.99950683,Mozart,0.96676666
+K527 Overture ''Don Giovanni''.mid,Mozart\K527 Overture ''Don Giovanni''.mid,Mozart,Mozart,0.8263242,Mozart,0.8798908
+K617 Adagio.mid,Mozart\K617 Adagio.mid,Mozart,Mozart,0.9181337,Mozart,0.93890697
+K622 Clarinet Concerto 3mov.mid,Mozart\K622 Clarinet Concerto 3mov.mid,Mozart,Mozart,0.9742119,Mozart,0.6466556
+K626 Requiem 01 Introitus & Kyrie.mid,Mozart\K626 Requiem 01 Introitus & Kyrie.mid,Mozart,Mozart,0.5738214,Mozart,0.555959
+K626 Requiem 02 rextremendae.mid,Mozart\K626 Requiem 02 rextremendae.mid,Mozart,Mozart,0.8134591,Mozart,0.74868244
+K626 Requiem 07 Lacrimosa.mid,Mozart\K626 Requiem 07 Lacrimosa.mid,Mozart,Mozart,0.7932581,Mozart,0.68464696
+K626 Requiem 09 hostias.mid,Mozart\K626 Requiem 09 hostias.mid,Mozart,Mozart,0.7590353,Mozart,0.5573774
+K626 Requiem 12 agnus dei.mid,Mozart\K626 Requiem 12 agnus dei.mid,Mozart,Mozart,0.74888664,Mozart,0.5676172
+K626 Requiem kyrie.mid,Mozart\K626 Requiem kyrie.mid,Mozart,Mozart,0.92177,Mozart,0.9525672
+Piano Concerto n18 K456 1mov ''Paradis''.mid,Mozart\Piano Concertos\Piano Concerto n18 K456 1mov ''Paradis''.mid,Mozart,Mozart,0.99566156,Mozart,0.95616394
+Piano Concerto n20 K466 1mov.mid,Mozart\Piano Concertos\Piano Concerto n20 K466 1mov.mid,Mozart,Mozart,0.70263344,Beethoven,0.6038141
+Piano Concerto n20 K466 2mov.mid,Mozart\Piano Concertos\Piano Concerto n20 K466 2mov.mid,Mozart,Mozart,0.9700308,Mozart,0.8317481
+Piano Concerto n21 K467 2mov ''Elvira Madigan''.mid,Mozart\Piano Concertos\Piano Concerto n21 K467 2mov ''Elvira Madigan''.mid,Mozart,Beethoven,0.87734437,Mozart,0.5502614
+Piano Concerto n23 K488 2mov.mid,Mozart\Piano Concertos\Piano Concerto n23 K488 2mov.mid,Mozart,Mozart,0.68035185,Mozart,0.54076743
+Piano Concerto n24 K491 1mov.mid,Mozart\Piano Concertos\Piano Concerto n24 K491 1mov.mid,Mozart,Mozart,0.98949695,Mozart,0.7442756
+Piano Concerto n26 K537 3mov ''Coronation''.mid,Mozart\Piano Concertos\Piano Concerto n26 K537 3mov ''Coronation''.mid,Mozart,Mozart,0.9932834,Mozart,0.90912944
+Piano Concerto n6 K238 1mov.mid,Mozart\Piano Concertos\Piano Concerto n6 K238 1mov.mid,Mozart,Mozart,0.9994968,Mozart,0.9816397
+K279 Piano sonata n01 2mov.mid,Mozart\Piano Sonatas\Nueva carpeta\K279 Piano sonata n01 2mov.mid,Mozart,Mozart,0.7974484,Mozart,0.57465005
+K284 Piano Sonata n06 .mid,Mozart\Piano Sonatas\Nueva carpeta\K284 Piano Sonata n06 .mid,Mozart,Mozart,0.8967929,Mozart,0.8514544
+K309 Piano Sonata n10 1mov.mid,Mozart\Piano Sonatas\Nueva carpeta\K309 Piano Sonata n10 1mov.mid,Mozart,Mozart,0.981267,Mozart,0.8660872
+Symphony n25 K183 1mov.mid,Mozart\Symphonies\Symphony n25 K183 1mov.mid,Mozart,Mozart,0.99272937,Mozart,0.86441
+Symphony n25 K183 2mov.mid,Mozart\Symphonies\Symphony n25 K183 2mov.mid,Mozart,Mozart,0.93137246,Mozart,0.78504777
+Symphony n25 K183 4mov.mid,Mozart\Symphonies\Symphony n25 K183 4mov.mid,Mozart,Mozart,0.99073595,Mozart,0.88137746
+Symphony n29 K201 1mov.mid,Mozart\Symphonies\Symphony n29 K201 1mov.mid,Mozart,Mozart,0.90310615,Mozart,0.7245267
+Symphony n31 K297 1mov ''Paris''.mid,Mozart\Symphonies\Symphony n31 K297 1mov ''Paris''.mid,Mozart,Mozart,0.9443465,Mozart,0.7308308
+Symphony n33 K319 2mov.mid,Mozart\Symphonies\Symphony n33 K319 2mov.mid,Mozart,Mozart,0.9717055,Mozart,0.8881583
+Symphony n35 K385 2mov ''Haffner''.mid,Mozart\Symphonies\Symphony n35 K385 2mov ''Haffner''.mid,Mozart,Mozart,0.99322635,Mozart,0.9798322
+Symphony n40 K550 1mov.mid,Mozart\Symphonies\Symphony n40 K550 1mov.mid,Mozart,Mozart,0.76806176,Mozart,0.49453637
+Symphony n5 K022.mid,Mozart\Symphonies\Symphony n5 K022.mid,Mozart,Mozart,0.96645474,Mozart,0.90051866
+Early Pieces n10 Air.mid,Mozart\The Chelsea Notebook\Early Pieces n10 Air.mid,Mozart,Mozart,0.96366817,Mozart,0.8946922
+Early Pieces n13 Prelude.mid,Mozart\The Chelsea Notebook\Early Pieces n13 Prelude.mid,Mozart,Mozart,0.8468238,Mozart,0.871834
+000149_all.mid,new_midi_files\ChoralTech.us\Mozart\000149_all.mid,Mozart,Mozart,0.97902167,Mozart,0.90427935
+000196_all.mid,new_midi_files\ChoralTech.us\Mozart\000196_all.mid,Mozart,Mozart,0.94557476,Mozart,0.6240816
+000199_all.mid,new_midi_files\ChoralTech.us\Mozart\000199_all.mid,Mozart,Mozart,0.8606952,Mozart,0.7974373
+000201_all.mid,new_midi_files\ChoralTech.us\Mozart\000201_all.mid,Mozart,Mozart,0.8891024,Mozart,0.8745529
+000302_all.mid,new_midi_files\ChoralTech.us\Mozart\000302_all.mid,Mozart,Mozart,0.87981606,Bach,0.7026228
+000304_all.mid,new_midi_files\ChoralTech.us\Mozart\000304_all.mid,Mozart,Mozart,0.85791063,Bach,0.545063
+000305_all.mid,new_midi_files\ChoralTech.us\Mozart\000305_all.mid,Mozart,Mozart,0.9783061,Mozart,0.8928867
+000535_all.mid,new_midi_files\ChoralTech.us\Mozart\000535_all.mid,Mozart,Mozart,0.83392847,Bach,0.7257852
+000598_all.mid,new_midi_files\ChoralTech.us\Mozart\000598_all.mid,Mozart,Mozart,0.88861877,Mozart,0.5084325
+000777_all.mid,new_midi_files\ChoralTech.us\Mozart\000777_all.mid,Mozart,Mozart,0.9100991,Mozart,0.73153216
+000784_all.mid,new_midi_files\ChoralTech.us\Mozart\000784_all.mid,Mozart,Mozart,0.8578666,Bach,0.5561639
+001433_all.mid,new_midi_files\ChoralTech.us\Mozart\001433_all.mid,Mozart,Mozart,0.96669847,Mozart,0.943342
+mz_545_1.mid,new_midi_files\Classical Music MIDI (Kaggle)\Mozart\mz_545_1.mid,Mozart,Mozart,0.9890205,Mozart,0.9044588
+mz_545_2.mid,new_midi_files\Classical Music MIDI (Kaggle)\Mozart\mz_545_2.mid,Mozart,Mozart,0.8397778,Mozart,0.64461744
+mz_570_1.mid,new_midi_files\Classical Music MIDI (Kaggle)\Mozart\mz_570_1.mid,Mozart,Mozart,0.9835994,Mozart,0.9164533
+mz_570_3.mid,new_midi_files\Classical Music MIDI (Kaggle)\Mozart\mz_570_3.mid,Mozart,Mozart,0.9532909,Mozart,0.9020648
+Farnaby_-_For_Two_Virginals.mid,new_midi_files\commons.wikimedia.org\Mozart\Farnaby_-_For_Two_Virginals.mid,Mozart,Beethoven,0.9307005,Bach,0.7343392
+Mozart_-_Eine_kleine_Gigue_(KV_574).mid,new_midi_files\commons.wikimedia.org\Mozart\Mozart_-_Eine_kleine_Gigue_(KV_574).mid,Mozart,Bach,0.9281262,Bach,0.9047663
+"String_Quartet_No._14,_movement_1.mid","new_midi_files\commons.wikimedia.org\Mozart\String_Quartet_No._14,_movement_1.mid",Mozart,Bach,0.79442656,Bach,0.8087482
+"W._A._Mozart,_Piano_Sonata_No._3,_K_281.mid","new_midi_files\commons.wikimedia.org\Mozart\W._A._Mozart,_Piano_Sonata_No._3,_K_281.mid",Mozart,Mozart,0.97448593,Mozart,0.8932248
+Mozart__Minuet_from_Don_Juan.mid,new_midi_files\midisheetmusic.com\Mozart\Mozart__Minuet_from_Don_Juan.mid,Mozart,Chopin,0.5057822,Beethoven,0.6457635
