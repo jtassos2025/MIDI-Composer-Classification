@@ -1,0 +1,6 @@
+source,cnn_accuracy,cnn_macro_f1,lstm_accuracy,lstm_macro_f1,status
+A. Beakal markdown 'Verified Reference Results',0.846,0.816,0.855,0.827,stale - contradicts own notebook's executed output
+B. CNN_LSTM_Held_Out_Test_Metrics.csv,0.8461538461538461,0.8157063645130184,0.8550295857988166,0.8264822552402937,"stale - claims CNN trained 20 epochs, contradicts EPOCHS=60"
+D. artifacts/model_results.csv (old single-dataset run),0.8859649122807017,0.8085069444444444,0.7192982456140351,0.6249400022784196,"unrelated - different architecture, different dataset version"
+E. evaluation_outputs/test_vs_val_metrics.csv (prior run),0.8994082840236687,0.8797084382210205,0.834319526627219,0.8020439765132265,independent reproduction - agrees with C
+"F. THIS RUN (Section 11, live)",0.8964497041420119,0.8745200742027817,0.834319526627219,0.8020439765132265,ground truth for this notebook
